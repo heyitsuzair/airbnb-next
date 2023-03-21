@@ -1,3 +1,4 @@
 import imagesPath from "./imagesPath";
+import Tabs from "./Tabs";
 
-export { imagesPath };
+export { imagesPath, Tabs };

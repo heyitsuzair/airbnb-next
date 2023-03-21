@@ -1,5 +1,7 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { TabsUnderlined } from "../index";
+import { Tabs } from "../../../config";
 
 const PopoverIsland = ({ setIsIslandOpen, isIslandOpen }) => {
   // Framer Motion Variants
@@ -47,7 +49,7 @@ const PopoverIsland = ({ setIsIslandOpen, isIslandOpen }) => {
     <>
       {isIslandOpen && (
         <div
-          className="bg-[rgba(0,0,0,0.1)] h-screen w-screen absolute left-0 right-0 bottom-0 top-0"
+          className="bg-[rgba(0,0,0,0.1)] h-screen w-screen absolute cursor-pointer left-0 right-0 bottom-0 top-0"
           onClick={() => setIsIslandOpen(false)}
         ></div>
       )}
@@ -62,7 +64,7 @@ const PopoverIsland = ({ setIsIslandOpen, isIslandOpen }) => {
             className="bg-white h-44 top-0 text-center absolute left-0 w-full"
           >
             <motion.div key="child" variants={variants.container}>
-              Hello
+              <TabsUnderlined tabs={Tabs.island} />
             </motion.div>
           </motion.div>
         )}

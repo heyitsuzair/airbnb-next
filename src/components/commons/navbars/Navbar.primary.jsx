@@ -42,7 +42,7 @@ const NavbarPrimary = () => {
             justify="justify-start"
           />
         </div>
-        <div className="col-span-4 cursor-pointer">
+        <div className={`col-span-4 ${!isIslandOpen && "cursor-pointer"}`}>
           <PopoverIsland
             isIslandOpen={isIslandOpen}
             setIsIslandOpen={setIsIslandOpen}

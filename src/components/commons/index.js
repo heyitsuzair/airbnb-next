@@ -39,6 +39,11 @@ import IconPlain from "./icons/Icon.plain";
  */
 import PopoverUser from "./popover/Popover.user";
 
+/**
+ * Tabs
+ */
+import TabsUnderlined from "./tabs/Tabs.underlined";
+
 export {
   NavbarPrimary,
   Logo,
@@ -57,4 +62,5 @@ export {
   ButtonTransparent,
   IconPlain,
   PopoverUser,
+  TabsUnderlined,
 };
