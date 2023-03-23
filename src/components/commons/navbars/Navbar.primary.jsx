@@ -65,7 +65,7 @@ const NavbarPrimary = () => {
                   text="Any week"
                   classes="px-4 border-r border-gray-300"
                 />
-                <TextMd text="Add guests" classes="px-4 border-r" />
+                <TextMd text="Add guests" classes="px-4" />
                 <IconPlain iconClass="fa-search" isRounded />
               </motion.div>
             )}

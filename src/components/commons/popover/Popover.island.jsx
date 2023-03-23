@@ -8,7 +8,7 @@ const PopoverIsland = ({ setIsIslandOpen, isIslandOpen }) => {
   const variants = {
     island: {
       visible: {
-        height: "11rem",
+        height: "13rem",
         transition: { duration: 0.2 },
       },
       hidden: {
@@ -24,21 +24,21 @@ const PopoverIsland = ({ setIsIslandOpen, isIslandOpen }) => {
       visible: {
         scaleX: 1,
         scaleY: 1,
-        y: 50,
+        y: 30,
         opacity: "1",
         transition: { duration: 0.2 },
       },
       hidden: {
         scaleX: 0,
         scaleY: 0,
-        y: -10,
+        y: -40,
         opacity: "0",
         transition: { duration: 0.2 },
       },
       exit: {
         scaleX: 0,
         scaleY: 0,
-        y: -10,
+        y: -40,
         opacity: "0",
         transition: { duration: 0.2 },
       },

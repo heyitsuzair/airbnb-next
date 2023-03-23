@@ -28,6 +28,8 @@ import TextError from "./text/Text.error";
  * Buttons
  */
 import ButtonTransparent from "./buttons/Button.transparent";
+import ButtonPlain from "./buttons/Button.plain";
+import ButtonIconned from "./buttons/Button.iconned";
 
 /**
  * Icons
@@ -43,6 +45,11 @@ import PopoverUser from "./popover/Popover.user";
  * Tabs
  */
 import TabsUnderlined from "./tabs/Tabs.underlined";
+
+/**
+ * Searchs
+ */
+import SearchHomes from "./search/Search.homes";
 
 export {
   NavbarPrimary,
@@ -60,7 +67,10 @@ export {
   Text9Xl,
   TextError,
   ButtonTransparent,
+  ButtonPlain,
+  ButtonIconned,
   IconPlain,
   PopoverUser,
   TabsUnderlined,
+  SearchHomes,
 };

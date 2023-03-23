@@ -1,10 +1,10 @@
-import { TextMd } from "../components/commons";
+import { SearchHomes, TextMd } from "../components/commons";
 export default {
   // Popover Island
   island: [
     {
       text: "Stays",
-      component: <TextMd text="stays" />,
+      component: <SearchHomes />,
     },
     {
       text: "Experiences",
